@@ -1,4 +1,29 @@
 {
-    "users": [],
-    "orders": []
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe"
+        },
+        {
+            "id": 2,
+            "name": "Mary Jane"
+        }
+    ],
+    "orders": [
+        {
+            "id": 20,
+            "user": 2,
+            "total": 500
+        },
+        {
+            "id": 30,
+            "user": 1,
+            "total": 399
+        },
+        {
+            "id": 40,
+            "user": 2,
+            "total": 60
+        }
+    ]
 }
