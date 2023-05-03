@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const app = express();
 
-function readData(filename="db.json") {
+function readData(filename = "db.json") {
     return new Promise((resolve, reject) => {
         fs.readFile(__dirname + "/" + filename, (err, data) => {
             if (err) {
@@ -13,7 +13,7 @@ function readData(filename="db.json") {
                 resolve(JSON.parse(data));
             }
         })
-    }) 
+    })
 };
 
 
@@ -80,3 +80,4 @@ const PORT = 8000;
 app.listen(PORT, () => {
     console.log("Server listening on port %d...", PORT);
 });
+
