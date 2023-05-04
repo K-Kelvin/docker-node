@@ -9,17 +9,16 @@
 	</head>
 	<body>
 		<div class="container">
-			<h2>Authors</h2>
+			<h2 id="title">Authors</h2>
 			<pre id="data"></pre>
+
+			<div class="links"></div>
+
+			<p style="margin-top: 3rem">
+				<a href="authors.html" class="back">Home</a>
+			</p>
 		</div>
 	</body>
 
-	<script>
-		fetch("http://localhost:8000/authors")
-			.then(res => res.json())
-			.then(authors => {
-				const content = JSON.stringify(authors, null, 4);
-				document.getElementById("data").innerHTML = content;
-			});
-	</script>
+	<script src="script.js"></script>
 </html>
