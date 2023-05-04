@@ -1,7 +1,9 @@
 const express = require("express");
 const fs = require("fs");
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 
 function readData(filename = "db.json") {
     return new Promise((resolve, reject) => {
