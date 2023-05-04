@@ -1,7 +1,15 @@
 # Library Microservice
 
-This is a nodejs application for a simple library, with docker configurations
-that can be build into a docker image.
+This is a nodejs and express application for a simple library
+that holds records of authors and books.
+
+The microservice enables one to get author details, and the details
+of the books they have written.
+
+The service uses a simple JSON file as a database.
+
+The service contains docker configurations, enabling it to be built
+into a container and deployed independently.
 <br>
 
 The app has 4 endpoints.<br>
