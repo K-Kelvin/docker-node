@@ -1,0 +1,29 @@
+{
+    "authors": [
+        {
+            "author_id": 1,
+            "name": "John Doe"
+        },
+        {
+            "author_id": 2,
+            "name": "Mary Jane"
+        }
+    ],
+    "books": [
+        {
+            "book_id": 20,
+            "author_id": 2,
+            "title": "Book 1"
+        },
+        {
+            "book_id": 30,
+            "author_id": 1,
+            "title": "Book 2"
+        },
+        {
+            "book_id": 40,
+            "author_id": 2,
+            "title": "Book 3"
+        }
+    ]
+}
